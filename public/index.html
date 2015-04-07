@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en" ng-app="app">  
+  <head>
+    <meta charset="utf-8">
+    <title ng-bind="title || 'App'"></title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <base href="/"> 
+  </head>
+  <body ng-app="app">
+
+    <nav class="navbar navbar-default"><div class="navbar-header"><a href="/tweets/" class="navbar-brand">Tweets</a></div></nav>
+    <br/>
+    <br/>
+    <div ng-view></div>
+
+    <script src="public/js/lib/angular/angular.min.js"></script>
+    <script src="public/js/lib/angular/angular-resource.min.js"></script>
+    <script src="public/js/lib/angular/angular-route.min.js"></script>
+    <script src="public/js/app.js"></script>
+    <script src="public/js/services.js"></script>
+    <script src="public/js/controllers.js"></script>
+  </body>
+</html>  
