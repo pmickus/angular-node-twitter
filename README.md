@@ -16,4 +16,5 @@ this not include type. There might be a way to solve this but I didn't have enou
 
 # If I had more time
 Definitely write more tests. 
+Validations
   
